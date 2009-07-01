@@ -26,3 +26,7 @@ Steps in designing/using relational db
 Given a db, we may want to ask ;
 
 e.g 
+the films produced before 1950
+who acts in films "gone with the wind"
+how many films has the word "gone" in the title
+
