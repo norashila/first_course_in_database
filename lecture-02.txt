@@ -1,0 +1,28 @@
+﻿chapter 2
+
+relational aljebra
+
+importants concepts
+
+relation = table
+semi-structured data = XML
+schema
+attributes/column
+tuples/rows
+domain/data type
+key/unique, not null
+
+SQL
+CREATE TABLE
+DROP TABLE
+
+Steps in designing/using relational db
+
+1. design schema
+2. create schema ( SQL/DDL )
+3. load data
+4. queries, update, edit, modify db
+
+Given a db, we may want to ask ;
+
+e.g 
