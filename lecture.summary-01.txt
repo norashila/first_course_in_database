@@ -1,0 +1,510 @@
+chapter 1
+
+databases today are essential to every business. there are a database
+befind the scene serving you information.
+
+databases are also used to store data in scientific activities;
+biochemist, human genome.
+
+DBMS(database mgmt system) is a tool to create, manage, large amount
+of data efficiently and allow it to persist over time.
+
+as a comparison: word processing -> MS Word, Open Office, wordpad.exe
+		number crunching -> spreadsheet, MS Excel data
+		manipulation, storage -> database
+
+what is a database? A database is a collection of data that exist over
+a long time.
+
+database is managed by DBMS.
+
+DBMS; 1. allow users to create a new database and specify their schema
+( structure of data ) using DDL 2. able the user to query, modify the
+data using DML 3. support large storage of data 4. durable, support
+recovery of db in case of failures 5. control data access from many
+users
+
+early dbms
+
+the first commercial appear in late 1960. It is based on file system,
+lack many features. The earlist applicaton are banking, airline
+reservation and corporate record keeping. Two data models used are
+tree-based model and network-model.
+
+this model doesn't support query, it is hard to query/ask question
+from the data.
+
+1970, Codd proposed a database system that present the view of the
+data organized as table called relations. Query for the data could be
+expressed in high-level language, called SQL.
+
+1990, relational db is the norm. 
+
+smaller dbms
+
+originally dbms is expensive and large. today, there is various type
+of dbms, even on small PC. It is as common as spreadsheet and word
+processing.
+
+another trend; use XML in documents. large collection of documents can
+serve as a database.
+
+db is also getting bigger. some db sizes are in tera(10^12) and even
+in peta(10^15). some large size db; 1. google 2. satelites photos
+3. repositories like flicker and amazon.com 4. movies in youtube
+5. p2p in sharing large files
+
+many corporation face the problem of information inegration; joining
+many database and legacy system into a whole system. one way to solve
+this is data warehouse: information are copied periodically into a
+central db and consolidated. Another approach is using middelware,
+that allow various database to talk with one another.
+
+Overview DBMS
+
+dba - database administrator ( maintain and take care of db )
+
+DDL  data definition language
+
+DML  data manipulation language - SQL
+
+queries are group into transactions, unit that must be executed
+atomically and in isolation from one another.
+
+e.g
+
+withdraw money from bank
+( 1 transaction with 5 queries )
+
+1. enter pin/code
+2. enter money requested
+3. db determine is money enough
+4. if enough, give money else reject
+5. close 
+
+if something happen ( power failure ) and one of the steps fail, the
+transaction fail.
+
+transaction : a group of one or more db operations, which is a unit of
+work that must be executed atomically and in isolation.
+
+tp : transaction processors accepts transaction commands;
+
+1. log for durability if the system crash, dbms could recover the
+transaction
+
+2. concurrency control
+
+3. deadlock resolution : conflict between transaction. e.g two person
+withdraw from the same account
+
+Outline of DBMS studies
+
+relational modeling
+ER model
+UML
+ODL
+
+Relational DB programming
+
+SQL
+
+semistructure data modeling
+XML
+
+data mining : interesting ways to process large amt of data
+data-stream: data that arrive continously ( stock price, ) p2p :
+distributed data
+
+
+Relational DB Modellng
+
+------------------------------------------------------------------------
+chapter 2.
+
+What is data model?
+
+data model is a notation for describing data or information. The
+description consist of 3 parts;
+
+1. structure of data ( also known as conceptual model )
+
+2. operation on data ;
+	- query ( retrieve information )
+	- modify ( change, edit, create )
+3. contraint on data : data type
+
+2 important data models are;
+
+1. relational 
+2. semistructure
+
+
+
+Relational in brief
+
+the relational model is based on table.
+
+title 			| year | length | genre
+------------------------------------------------
+gone with the wind 	| 1939 | 231    | drama
+star wars		| 1977 | 124    | scifi
+wayne's world		| 1992 | 95     | comedy
+
+* there would be many more rows of films.
+
+For instance, the table/relation about movies. This relation/table
+describe movies ( title, year, length, genre ).
+
+the operation on relational model is called "relational algebra", it
+is table-oriented.  e.g we could query for rows that have
+genre="comedy".
+
+the semistructure model ( briefly ) semistructrure data look-like
+trees or graphs, rather than tables. One example is XML. The same info
+in XML is
+
+<Movies>
+<Movie title="Gone with wind">
+<year>1939</year>
+<length>231</length>
+<genre>drame</genre>
+</Movies>
+...
+...
+</Movies>
+
+Other data model for db;
+
+1. Object oriented
+
+2. tree-like
+
+3. network
+
+4. hierarchical
+
+many models has been abandoned, not used. hierarchical model is hard
+to write programs to access the data.
+
+relational model becomes successful because;
+
+1. simple to model data
+2. offer useful operation on data ( add, delete, edit, read )
+
+
+Relational model represent data in 2-dimensional table called relation. 
+A sample relation/table "Movies"
+
+title 	 		| year | length | genre
+===============================================
+gone with the wind	| 1939 | 231	| drama
+star wars     		| 1977 | 124	| scifi
+wayne's world		| 1992 | 95	| comedy
+batman			| 2007 | 120    | action
+
+
+columns of relation are attributes. e.g In Movies, the attributes are
+( title, year, length, genre ). attributes describe the meaning of
+entries in the column.
+
+schema describe how data is structured, defined at setup-time, rarley
+change. It is the name of the relation and the set of attributes for
+the relation.
+
+e.g
+
+Movies(title, year, length, genre )
+
+In relational model with more than one relation(tables), the set of
+schema is called relational database schema, or database schema.
+
+rows of a relation are called tuples. a tuple has one component for
+each attribute of the relation.
+
+Relation - capital letter; Movies
+attributes - lower-case letter
+
+domain/data type
+
+relational model requires that each component of each tuple be atomic. it must be some elementery type such as integer or string.
+
+it is not permited to have non-atomic values
+
+for e.g
+
+Movies
+
+title	| actor |
+==================
+batman	| Bale, Crossman   <- multiple values for actor
+
+It assume that each attribute belong to a domain. Each value for each
+attributes must belong to a domain.
+
+Movies
+
+title          	|      year 
+===========================
+batman		|   2007
+superman	|   bale
+spiderman 	|   2008
+
+
+we could include domain in schema
+
+Movies(title:string, year:interger, length:integer, genre:string )
+
+
+Important concepts;
+
+- the order of tuples is not important
+- the order of attributes is not important
+
+
+e.g 
+
+title		|	year
+============================
+batman		|      2007
+spiderman	|      2009
+superman	|      2005
+
+is the same relation as
+
+year   	    | title
+============================
+2009	    | spiderman
+2005        | superman
+2007        | batman
+
+however, the schema for the two relation is different!
+
+A: Movies(title:string, year:integer )
+
+B: Movies(year:interger, title:string )
+
+null value: empty value in any attribute of any type
+
+e.g
+
+title	|   year
+================
+catman  |  
+
+* no data about the release date of catman
+
+Relatin is not static, we expect to add, delete, edit the data in the relation. schema, however, rarely change.
+
+Keys of  relations
+
+a key for a relation is a set of attributes such that no two tuples can have the same values for all of their key attributes. Key is unique.
+
+Use of key
+
+- identify specific tuples
+- indexing
+- logical pointer
+
+e.g 
+
+Movies
+
+title 	 		| year | length | genre
+===============================================
+gone with the wind	| 1939 | 231	| drama
+star wars     		| 1977 | 124	| scifi
+wayne's world		| 1992 | 95	| comedy
+batman			| 2007 | 120    | action
+die hard 4.0            | 2007 | 120    | action
+
+we declare Movies(title, year) as the key for the relation. We assume that no two movies with the same title in the same years.
+
+Movies(title,year,length, genre)
+       -----,----,
+
+we cannot use genre since it is not unique.
+
+we cannot use year since there are more than one movies in a years.
+
+example of key
+- student matrik number
+- e-mail address
+- employer ID
+- passport number
+- birth certificate
+- birthdate?
+
+complete database schema is shown in pg. 26. 
+
+exercise 2.2
+
+Accounts
+
+acct | type	| balance
+=====================
+1234 | checking | 1000
+2345 | checking | 200
+2454 | saving   | 5
+
+Customers
+
+firstname	| lastname	| id	    | acc
+==================================================
+robbie		| banks		| 901-333   | 1234
+lena 		| hand		| 805-222   | 1234
+lena		| hand		| 805-222   | 2345
+
+
+what are the attributes for each relation?
+what are the tuples
+the component of one tuples
+the relation schema
+the database schema
+suitable domain
+
+
+2.3 defining a relation schema using SQL
+
+SQL, current standard is 1999 each commercial db has a small variation
+of SQL from one another.
+
+SQL;
+
+DDL - data definition language
+DML - data manipulation language
+
+SQL differenciate 3 type of relations;
+1. stored relation - tables. relation can be modified and quries
+2. view - temporary relation based on computation, constructed as needed. 
+3. temporary table use in queries and modification.
+
+SQL CREATE TABLE 
+
+Data type
+
+all attributes must have data type.
+
+* the norm is to write SQL data type in all capital letters.
+
+1. character string if fixed or varying length
+   CHAR(n) , e.g n=10
+   VARCHAR (10), 
+
+   e.g
+   
+   name varchar(25)
+   sex char(1)
+   matrik varchar (10)
+   course_name varchar(6)
+
+2. bit string of fixed or varying type
+   BIT(n)
+   BIT VARYING(n)
+
+3. BOOLEAN 
+   TRUE, FALSE
+   use in logical operation
+
+4. INT , INTEGER e.g 1987, 8
+   for year, students_enrolment
+
+5. FLOAT, REAL
+   height, weight, CGPA
+
+6. DATE
+   DATE '1998-10-04'
+
+7. TIME
+   '15:30:20'
+
+Table declaration
+
+CREATE TABLE Movies (
+title CHAR(100),
+year INT,
+length INT,
+genre CHAR(10),
+studioName CHAR(30),
+producer# INT);
+
+* the semicolon is important (;)
+* we could use char(100), int, char(10), etc, but the convention is to use capital letters.
+
+CREATE TABLE MovieStar (
+name CHAR(30),
+address VARCHAR(255),
+gender CHAR(1),
+birthdate DATE
+);
+
+
+Modifying
+
+DROP TABLE R;
+
+ALTER TABLE
+
+ALTER TABLE MovieStar ADD phone CHAR(16);
+
+NULL - special empty value
+
+ALTER TABLE MovieStar DROP birthdate;
+
+Using default value
+
+If we didn't supply a values, the system would use a default values.
+
+gender CHAR(1) DEFAULT '?',
+birthdate DATE DEFAULT DATE '0000-00-00'
+
+Declare key
+
+PRIMARY KEY
+UNIQUE
+
+CREATE TABLE MovieStar (
+name CHAR(30) PRIMARY KEY,
+....
+);
+
+If one one attributes, can use either unique or primary key.
+
+CREATE TABLE MovieStar (
+name CHAR(30) UNIQUE,
+....
+);
+
+CREATE TABLE MovieStar (
+name CHAR(30),
+...,
+PRIMARY KEY (name)
+);
+
+2 or more attributes as primary key
+
+CREATE TABLE Movies (
+title CHAR(100),
+year int,
+....
+PRIMARY KEY (title,year)
+);
+
+
+exercise 2.3
+
+Product(maker, model, type)
+PC(model,speed, ram, hd, price)
+laptop(model, speed, ram, hd, screen, price)
+printer(model, color, type, price)
+
+write schema for relation Product, PC, laptop, Printer
+
+alter Printer to delete color
+alter Laptop to add optical_disk, let the default value be 'none'.
+
+ 
+
+
+   
+
