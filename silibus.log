@@ -1,0 +1,291 @@
+This is XeTeXk, Version 3.1415926-2.2-0.999.7 (Web2C 7.5.7) (format=xelatex 2009.5.21)  14 JUL 2009 11:51
+entering extended mode
+ %&-line parsing enabled.
+**silibus.tex
+(./silibus.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, german-x-2008-06-18, ngerman-x-2008-06-18, ancientgreek, ibycus, ar
+abic, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutc
+h, esperanto, estonian, farsi, finnish, french, galician, german, ngerman, mono
+greek, greek, hungarian, icelandic, indonesian, interlingua, irish, italian, la
+tin, lithuanian, mongolian, mongolian2a, bokmal, nynorsk, polish, portuguese, r
+omanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, turki
+sh, ukenglish, ukrainian, uppersorbian, welsh, loaded.
+(c:/Program Files/texlive/2008/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2005/09/16 v1.4f Standard LaTeX document class
+(c:/Program Files/texlive/2008/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(c:/Program Files/texlive/2008/texmf-dist/tex/xelatex/fontspec/fontspec.sty
+Package: fontspec 2008/08/09 v1.18 Advanced font selection for XeLaTeX
+
+(c:/Program Files/texlive/2008/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
+)
+\c@zf@newff=\count87
+\c@zf@index=\count88
+\c@zf@script=\count89
+\c@zf@language=\count90
+
+(c:/Program Files/texlive/2008/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2005/08/06 v4.2 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count91
+\calc@Bcount=\count92
+\calc@Adimen=\dimen103
+\calc@Bdimen=\dimen104
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
+\calc@Ccount=\count93
+\calc@Cskip=\skip45
+)
+(c:/Program Files/texlive/2008/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
+
+(c:/Program Files/texlive/2008/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+\XKV@toks=\toks14
+\XKV@tempa@toks=\toks15
+\XKV@depth=\count94
+File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
+
+(c:/Program Files/texlive/2008/texmf-dist/tex/generic/xkeyval/keyval.tex)))
+(c:/Program Files/texlive/2008/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(c:/Program Files/texlive/2008/texmf-dist/tex/xelatex/euenc/eu1enc.def
+File: eu1enc.def 2008/03/08 v0.1d Experimental unicode font encoding
+)
+LaTeX Font Info:    Try loading font information for EU1+lmr on input line 100.
+
+
+(c:/Program Files/texlive/2008/texmf-dist/tex/xelatex/euenc/eu1lmr.fd
+File: eu1lmr.fd 2007/01/14 v1.3 Font defs for Latin Modern
+))
+LaTeX Info: Redefining \itshape on input line 1163.
+LaTeX Info: Redefining \slshape on input line 1166.
+LaTeX Info: Redefining \scshape on input line 1169.
+LaTeX Info: Redefining \upshape on input line 1172.
+
+fontspec.cfg loaded.
+(c:/Program Files/texlive/2008/texmf-dist/tex/xelatex/fontspec/fontspec.cfg))
+(c:/Program Files/texlive/2008/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+File: xunicode.sty 2008/02/08 v0.91 provides access to latin accents and many o
+ther characters in Unicode lower plane
+)
+(c:/Program Files/texlive/2008/texmf-dist/tex/xelatex/xltxtra/xltxtra.sty
+Package: xltxtra 2008/07/29 v0.4 Improvements for the "XeLaTeX" format
+
+(c:/Program Files/texlive/2008/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/Program Files/texlive/2008/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/Program Files/texlive/2008/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(c:/Program Files/texlive/2008/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: xetex.def on input line 90.
+
+(c:/Program Files/texlive/2008/texmf-dist/tex/xelatex/xetex-def/xetex.def
+File: xetex.def 2006/08/10 v0.92 LaTeX color/graphics driver for XeTeX (RRM, mo
+d. JK)
+))
+\Gin@req@height=\dimen105
+\Gin@req@width=\dimen106
+)
+LaTeX Info: Redefining \TeX on input line 42.
+LaTeX Info: Redefining \LaTeX on input line 48.
+
+(c:/Program Files/texlive/2008/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count95
+)
+(c:/Program Files/texlive/2008/texmf-dist/tex/latex/base/fixltx2e.sty
+Package: fixltx2e 2006/03/24 v1.1n fixes to LaTeX
+LaTeX Info: Redefining \em on input line 420.
+)
+LaTeX Info: Redefining \em on input line 117.
+LaTeX Info: Redefining \emph on input line 126.
+LaTeX Info: Redefining \- on input line 131.
+LaTeX Info: Redefining \textsubscript on input line 150.
+LaTeX Info: Redefining \textsuperscript on input line 152.
+\xxt@tempbox=\box26
+)
+Package fontspec Info: Cambria scale = 0.92331 on input line 9.
+\c@zf@famc@Cambria=\count96
+Package fontspec Info: Defining font family for 'Cambria' with options [Scale=M
+atchLowercase,Mapping=tex-text] on input line 9.
+Package fontspec Info: Cambria scale = 0.92331 on input line 9.
+Package fontspec Info: Cambria scale = 0.92331 on input line 9.
+Package fontspec Info: Cambria/B scale = 0.8898 on input line 9.
+Package fontspec Info: Cambria/B scale = 0.8898 on input line 9.
+Package fontspec Info: Cambria/I scale = 0.92331 on input line 9.
+Package fontspec Info: Cambria/I scale = 0.92331 on input line 9.
+Package fontspec Info: Cambria/BI scale = 0.8898 on input line 9.
+Package fontspec Info: Cambria/BI scale = 0.8898 on input line 9.
+LaTeX Font Info:    Font shape `EU1/Cambria(0)/m/n' will be
+(Font)              scaled to size 9.2331pt on input line 9.
+Package fontspec Info: Calibri scale = 0.92331 on input line 10.
+\c@zf@famc@Calibri=\count97
+Package fontspec Info: Defining font family for 'Calibri' with options [Scale=M
+atchLowercase,Mapping=tex-text] on input line 10.
+Package fontspec Info: Calibri scale = 0.92331 on input line 10.
+Package fontspec Info: Calibri scale = 0.92331 on input line 10.
+Package fontspec Info: Calibri/B scale = 0.91376 on input line 10.
+Package fontspec Info: Calibri/B scale = 0.91376 on input line 10.
+Package fontspec Info: Calibri/I scale = 0.92331 on input line 10.
+Package fontspec Info: Calibri/I scale = 0.92331 on input line 10.
+Package fontspec Info: Calibri/BI scale = 0.91376 on input line 10.
+Package fontspec Info: Calibri/BI scale = 0.91376 on input line 10.
+Package fontspec Info: Consolas scale = 0.87917 on input line 11.
+\c@zf@famc@Consolas=\count98
+Package fontspec Info: Defining font family for 'Consolas' with options [Scale=
+MatchLowercase,] on input line 11.
+Package fontspec Info: Consolas scale = 0.87917 on input line 11.
+Package fontspec Info: Consolas/B scale = 0.86879 on input line 11.
+Package fontspec Info: Consolas/I scale = 0.87917 on input line 11.
+Package fontspec Info: Consolas/BI scale = 0.86879 on input line 11.
+
+(./silibus.aux)
+\openout1 = `silibus.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Font shape `EU1/Cambria(0)/m/n' will be
+(Font)              scaled to size 11.07971pt on input line 13.
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid this).
+ on input line 13.
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 13.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 13.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 13.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 13.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 13.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 13.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 13.
+LaTeX Font Info:    Redeclaring math accent \check on input line 13.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 13.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 13.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 13.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 13.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 13.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 13.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 13.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 13.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 13.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 13.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 13.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 13.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 13.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 13.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 13.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 13.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 13.
+LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
+(Font)              `operators' in the math version `normal' on input line 13.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> EU1/Cambria(0)/m/n on input line 13.
+LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
+(Font)              `operators' in the math version `bold' on input line 13.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> EU1/Cambria(0)/m/n on input line 13.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  EU1/Cambria(0)/m/n --> EU1/Cambria(0)/m/n on input line
+ 13.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  EU1/Cambria(0)/m/n --> EU1/Cambria(0)/m/n on input line
+ 13.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> EU1/Cambria(0)/m/it on input line 13.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> EU1/Cambria(0)/bx/n on input line 13.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> EU1/Calibri(0)/m/n on input line 13.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> EU1/Consolas(0)/m/n on input line 13.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  EU1/Cambria(0)/m/n --> EU1/Cambria(0)/bx/n on input lin
+e 13.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  EU1/Cambria(0)/m/n --> EU1/Cambria(0)/bx/n on input lin
+e 13.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> EU1/Cambria(0)/bx/it on input line 13
+.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> EU1/Calibri(0)/bx/n on input line 13.
+
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> EU1/Consolas(0)/bx/n on input line 13.
+
+LaTeX Font Info:    Font shape `EU1/Cambria(0)/m/n' will be
+(Font)              scaled to size 15.95477pt on input line 15.
+LaTeX Font Info:    Font shape `EU1/Cambria(0)/bx/n' will be
+(Font)              scaled to size 15.37575pt on input line 15.
+LaTeX Font Info:    Font shape `EU1/Cambria(0)/m/n' will be
+(Font)              scaled to size 7.38647pt on input line 16.
+LaTeX Font Info:    Font shape `EU1/Cambria(0)/m/n' will be
+(Font)              scaled to size 5.53986pt on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 16.
+LaTeX Font Info:    Font shape `EU1/Consolas(0)/m/n' will be
+(Font)              scaled to size 10.54999pt on input line 23.
+ [1
+
+]
+Overfull \hbox (3.25699pt too wide) in paragraph at lines 54--55
+\EU1/Cambria(0)/m/n/12 ment, database development cycle, entity-relation model,
+ structured query language. 
+ []
+
+
+Overfull \hbox (8.74599pt too wide) in paragraph at lines 58--59
+\EU1/Cambria(0)/m/n/12 guage for creating, querying, and modifying relational a
+nd object-relational databases. 
+ []
+
+[2] (./silibus.aux) ) 
+Here is how much of TeX's memory you used:
+ 5096 strings out of 494701
+ 84505 string characters out of 1163197
+ 154046 words of memory out of 3000000
+ 8283 multiletter control sequences out of 10000+50000
+ 6959 words of font info for 46 fonts, out of 3000000 for 5000
+ 669 hyphenation exceptions out of 8191
+ 33i,6n,48p,480b,245s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on silibus.pdf (2 pages).
